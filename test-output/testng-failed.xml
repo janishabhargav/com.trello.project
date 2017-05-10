@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.testcases.regression.BaseClass">
+        <methods>
+          <include name="Test_Create_Search"/>
+          <include name="Test_File_Upload_Delete_from_Popup"/>
+          <include name="launchBrowser"/>
+          <include name="Test_DeleteBoard"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.testcases.regression.BaseClass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

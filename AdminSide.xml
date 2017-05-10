@@ -1,0 +1,9 @@
+<suite name="Main Side Functionalities">
+<test name="Main Classes">
+<classes>
+<class name="com.testcases.regression.BaseClass"></class>
+</classes>
+
+</test>
+
+</suite>

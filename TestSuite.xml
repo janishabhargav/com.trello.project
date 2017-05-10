@@ -1,0 +1,6 @@
+<suite name="Regression Test Cases">
+<suite-files>
+<suite-file path="./AdminSide.xml"></suite-file>
+</suite-files>
+
+</suite>
