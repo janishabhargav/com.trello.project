@@ -134,7 +134,6 @@ public class Util extends BaseClass {
 		return checkIfBoardIsclicked;
 	}
 
-	
 	public static String VerifyTheUploadedFileInsideBoard(String Expected_FileName) throws InterruptedException {
 
 		String FileName = "";
@@ -227,9 +226,9 @@ public class Util extends BaseClass {
 			driver.findElement(By.cssSelector("a.button-link.js-attach")).click();
 			System.out.println("Attachment-- is clicked....");
 			Thread.sleep(3000);
-			
+
 			String FilePath = baseDir + "\\FileUpload\\TrelloSampleFile.xlsx";
-			System.out.println("FilePath...."+FilePath);
+			System.out.println("FilePath...." + FilePath);
 
 			WebElement UploadFile = driver.findElement(By.cssSelector("input.js-attach-file"));
 			System.out.println("Upload element found-- is clicked....");
@@ -285,7 +284,7 @@ public class Util extends BaseClass {
 			driver.findElement(By.xpath("//input[@value='Add']")).click();
 			System.out.println("Card infor mation is saved.....testing_CardInfo_XYZ");
 
-					Thread.sleep(5000);
+			Thread.sleep(5000);
 			driver.findElement(By.linkText("testing_CardInfo_XYZ")).click();
 			System.out.println("testing_CardInfo_XYZ-- is clicked....");
 

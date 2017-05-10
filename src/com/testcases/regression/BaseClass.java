@@ -77,14 +77,14 @@ public class BaseClass {
 			System.out.println("Error 111:::" + e);
 		}
 	}
-	/**Test 4. File Upload Delete from same page
-	Steps:
-	1. Launch browser and autheticate
-	2. Create board name 
-	3. Seach and verify if board is created
-	4. Create card and click on it
-	5. Upload file in the card and verify file is uploaded successfully.
-	6. Delete file in the card and verify file is deleted successfully.*/
+
+	/**
+	 * Test 4. File Upload Delete from same page Steps: 1. Launch browser and
+	 * autheticate 2. Create board name 3. Seach and verify if board is created
+	 * 4. Create card and click on it 5. Upload file in the card and verify file
+	 * is uploaded successfully. 6. Delete file in the card and verify file is
+	 * deleted successfully.
+	 */
 	
 	@SuppressWarnings("deprecation")
 	@Test(priority = 1)
